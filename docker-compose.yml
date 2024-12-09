@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  s_docker_vue_npm:
+    container_name: c_docker_vue_npm
+    image: docker_vue_npm
+    restart: always
+    ports:
+      - 8012:80
